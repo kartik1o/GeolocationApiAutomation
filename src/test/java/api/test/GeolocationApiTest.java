@@ -14,7 +14,7 @@ import java.util.Arrays;
 
 import static org.testng.Assert.*;
 
-public class GeolocationTest {
+public class GeolocationApiTest {
 
     @Test(priority = -1)
     void postGeolocationRequest() {

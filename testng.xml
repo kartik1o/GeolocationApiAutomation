@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="/Users/kumarkartikeya/IdeaProjects/TalaAssignment-ApiAutomation">
         <classes>
-            <class name="api.test.GeolocationTest">
+            <class name="api.test.GeolocationApiTest">
             </class>
         </classes>
     </test>
