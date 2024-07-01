@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-01T15:02:07 IST" name="All Test Suite" finished-at="2024-07-01T15:02:12 IST" duration-ms="5181">
+    <groups>
+    </groups>
+    <test started-at="2024-07-01T15:02:07 IST" name="/Users/kumarkartikeya/IdeaProjects/TalaAssignment-ApiAutomation" finished-at="2024-07-01T15:02:12 IST" duration-ms="5181">
+      <class name="api.test.GeolocationApiTest">
+        <test-method signature="postGeolocationRequest()[pri:-1, instance:api.test.GeolocationApiTest@1df82230]" started-at="2024-07-01T15:02:07 IST" name="postGeolocationRequest" finished-at="2024-07-01T15:02:08 IST" duration-ms="1309" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postGeolocationRequest -->
+        <test-method signature="geolocationRequest_AccessPointMissingMacAddress_ShouldReturnBadResponse()[pri:0, instance:api.test.GeolocationApiTest@1df82230]" started-at="2024-07-01T15:02:08 IST" name="geolocationRequest_AccessPointMissingMacAddress_ShouldReturnBadResponse" finished-at="2024-07-01T15:02:09 IST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- geolocationRequest_AccessPointMissingMacAddress_ShouldReturnBadResponse -->
+        <test-method signature="geolocationRequest_InvalidRadioTypeAndNewCellId_ShouldReturnBadResponse(java.lang.String)[pri:0, instance:api.test.GeolocationApiTest@1df82230]" started-at="2024-07-01T15:02:09 IST" name="geolocationRequest_InvalidRadioTypeAndNewCellId_ShouldReturnBadResponse" data-provider="getRadioTypeTestData" finished-at="2024-07-01T15:02:09 IST" duration-ms="370" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gsm]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- geolocationRequest_InvalidRadioTypeAndNewCellId_ShouldReturnBadResponse -->
+        <test-method signature="geolocationRequest_InvalidRadioTypeAndNewCellId_ShouldReturnBadResponse(java.lang.String)[pri:0, instance:api.test.GeolocationApiTest@1df82230]" started-at="2024-07-01T15:02:09 IST" name="geolocationRequest_InvalidRadioTypeAndNewCellId_ShouldReturnBadResponse" data-provider="getRadioTypeTestData" finished-at="2024-07-01T15:02:10 IST" duration-ms="348" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cdma]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- geolocationRequest_InvalidRadioTypeAndNewCellId_ShouldReturnBadResponse -->
+        <test-method signature="geolocationRequest_InvalidRadioTypeAndNewCellId_ShouldReturnBadResponse(java.lang.String)[pri:0, instance:api.test.GeolocationApiTest@1df82230]" started-at="2024-07-01T15:02:10 IST" name="geolocationRequest_InvalidRadioTypeAndNewCellId_ShouldReturnBadResponse" data-provider="getRadioTypeTestData" finished-at="2024-07-01T15:02:10 IST" duration-ms="325" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[wcdma]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- geolocationRequest_InvalidRadioTypeAndNewCellId_ShouldReturnBadResponse -->
+        <test-method signature="geolocationRequest_InvalidRadioTypeAndNewCellId_ShouldReturnBadResponse(java.lang.String)[pri:0, instance:api.test.GeolocationApiTest@1df82230]" started-at="2024-07-01T15:02:10 IST" name="geolocationRequest_InvalidRadioTypeAndNewCellId_ShouldReturnBadResponse" data-provider="getRadioTypeTestData" finished-at="2024-07-01T15:02:10 IST" duration-ms="367" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lte]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- geolocationRequest_InvalidRadioTypeAndNewCellId_ShouldReturnBadResponse -->
+        <test-method signature="geolocationRequest_Valid5GNetworkAndNewCellId_ShouldReturnSuccess()[pri:0, instance:api.test.GeolocationApiTest@1df82230]" started-at="2024-07-01T15:02:10 IST" name="geolocationRequest_Valid5GNetworkAndNewCellId_ShouldReturnSuccess" finished-at="2024-07-01T15:02:11 IST" duration-ms="361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- geolocationRequest_Valid5GNetworkAndNewCellId_ShouldReturnSuccess -->
+        <test-method signature="geolocationRequest_ValidInputs_ShouldReturnSuccess()[pri:0, instance:api.test.GeolocationApiTest@1df82230]" started-at="2024-07-01T15:02:11 IST" name="geolocationRequest_ValidInputs_ShouldReturnSuccess" finished-at="2024-07-01T15:02:11 IST" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- geolocationRequest_ValidInputs_ShouldReturnSuccess -->
+        <test-method signature="geolocationRequest_WithInsufficientAccessPoints_ShouldReturnNotFound()[pri:0, instance:api.test.GeolocationApiTest@1df82230]" started-at="2024-07-01T15:02:11 IST" name="geolocationRequest_WithInsufficientAccessPoints_ShouldReturnNotFound" finished-at="2024-07-01T15:02:11 IST" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- geolocationRequest_WithInsufficientAccessPoints_ShouldReturnNotFound -->
+        <test-method signature="geolocationRequest_WithInvalidApiKey_ShouldReturnFailure()[pri:0, instance:api.test.GeolocationApiTest@1df82230]" started-at="2024-07-01T15:02:11 IST" name="geolocationRequest_WithInvalidApiKey_ShouldReturnFailure" finished-at="2024-07-01T15:02:12 IST" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- geolocationRequest_WithInvalidApiKey_ShouldReturnFailure -->
+        <test-method signature="geolocationRequest_WithInvalidRequestBody_ShouldReturnParseFailure()[pri:0, instance:api.test.GeolocationApiTest@1df82230]" started-at="2024-07-01T15:02:12 IST" name="geolocationRequest_WithInvalidRequestBody_ShouldReturnParseFailure" finished-at="2024-07-01T15:02:12 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- geolocationRequest_WithInvalidRequestBody_ShouldReturnParseFailure -->
+        <test-method signature="geolocationRequest_WithoutRequestBody_ShouldReturnSuccess()[pri:0, instance:api.test.GeolocationApiTest@1df82230]" started-at="2024-07-01T15:02:12 IST" name="geolocationRequest_WithoutRequestBody_ShouldReturnSuccess" finished-at="2024-07-01T15:02:12 IST" duration-ms="365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- geolocationRequest_WithoutRequestBody_ShouldReturnSuccess -->
+      </class> <!-- api.test.GeolocationApiTest -->
+    </test> <!-- /Users/kumarkartikeya/IdeaProjects/TalaAssignment-ApiAutomation -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
